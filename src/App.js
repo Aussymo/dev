@@ -20,7 +20,7 @@ const App = () => {
 
   useEffect(() => {
     Axios.get("https://dev072220222.herokuapp.com/api/get").then((response) => {
-      res.header("Access-Control-Allow-Origin", "true");
+      // res.header("Access-Control-Allow-Origin", "true");
       setData(response.data);
     });
   }, []);
