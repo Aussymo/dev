@@ -81,7 +81,7 @@ const App = () => {
           placeholder="Phone Number"
           onChange={(e) => setPhoneNumber(e.target.value)}
         />
-        <button type="submit" className="submit" onClick={submitEmployee}>
+        <button className="submit" onClick={submitEmployee}>
           Submit
         </button>
         <br />
